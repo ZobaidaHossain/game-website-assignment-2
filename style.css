@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.colo{
+    color:#FF42A5;
+   
+}
+/*heading*/
+header{
+    padding:30px 0px;
+    
+}
+.head{
+    display:flex;
+    justify-content: space-around;
+}
+.logo{
+    display:flex;
+}
+.logo img{
+    width: 86.041px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.he{
+    text-align: center;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display:flex;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 30px;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.extra{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+padding: 11px 22px;
+    margin-top: -18px;
+}
+.extra img{
+    padding-left: 16px;
+}
+.banner{
+    /*padding: 19px 240px;*/
+    display:flex;
+    background-color: rgba(241, 68, 174, 0.03)
+}
+.ba-title{
+    max-width: 901px;    
+    margin: 0 auto;
+    padding: 148px 0px;
+}
+.d1{
+    display: flex;
+    
+}
+.d1 img{
+    padding:5px;
+
+}
+.p1{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+margin-top: 11px;
+}
+.ti1{
+    margin:0px;
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.ti2{
+    margin:0px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.btn1{
+    display: inline-flex;
+    margin-top: 28px;
+padding: 16px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+border:0px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+.btn2{
+    display: inline-flex;
+    margin-top: 28px;
+padding: 16px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+border:0px;
+background: #4EC5F7;
+margin-left: 24px;
+}
+.ba-im img{
+    width:81%;
+    margin-top: 19px;
+
+}
+
+
+
+@media screen and (max-width:576px){
+    header{
+        padding: 42px;
+        text-align: center;
+    }
+    .head,nav,nav>ul{
+        flex-direction: column;
+    }
+    .extra{
+        margin-top: 8px;;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:960px){
+    
+}
