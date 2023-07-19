@@ -56,6 +56,7 @@ nav li a{
     color: #3C354F;
 }
 .extra{
+    cursor: pointer;
     border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
 color: #3C354F;
@@ -207,7 +208,7 @@ font-weight: 500;
 
 .fe-text{
     text-align: right;
-    margin: 174px 0px;
+    margin-top: 174px;
     text-align: right;
 }
 
@@ -237,7 +238,7 @@ background-clip: text;
 }
 
 .fe-te{
-    padding-left: 353px;
+    padding-left: 264px;
     color: #534C64;
     text-align: right;
     font-family: Work Sans;
@@ -256,17 +257,9 @@ background-clip: text;
  
 }
 
-/*.ten{
-    border-radius: 8px;
-width: 342px;
-padding:40px;
-text-align: center;
-position:relative;
-bottom:100px;
-}*/
 
 .fe-image .hourse{
-    height:53%;
+    height:100%;
     
 }
 .ten .doll{
@@ -279,6 +272,141 @@ bottom:100px;
 
 }
 
+.ten{
+
+        margin-bottom: -433px;
+}
+
+
+
+/*gridi section*/
+.gridi{
+    display:flex;
+}
+.gri{
+    display: flex;
+   
+   
+}
+.gridi-con{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 51px 74px 0px 0px;
+    padding: 83px 0px 0px 140px;
+    gap: 53px;
+
+}
+
+.foot{
+    background: #0B0223;
+    width:100%;
+    margin-top:74px;
+    text-align: center;
+}
+
+.logo1{
+    display:flex;
+    justify-content: center;
+}
+.logo1 img{
+    width: 86.041px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.he1{
+    color:white;
+    text-align: center;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+.colo1{
+    color:#FF42A5;
+   
+}
+.po{
+    cursor: pointer;
+    display: flex;
+    padding: 0px 141px 37px 221px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: space-evenly;
+}
+.imo{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 382px;
+}
+.po2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 382px;
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.peu{
+    padding: 0px 0px 30px 0px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*
+.gridi-con{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 100px 60px 26px 142px;
+    gap:19px;
+}
+.con1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 100px 60px 26px 142px;
+
+}
+.con2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 0px 0px 0px 279px;
+}
+
+
+/*
+.pu{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.gridi-con{
+ 
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+        align-items: center;
+    padding-top: 139px;
+    padding-left: 116px;
+    gap: 32px;
+}*/
 
 
 
@@ -337,21 +465,139 @@ bottom:100px;
     width: 140.5px;
 
 }
-/*
-.feature-2{
-    padding:0px;
-   margin: 0px 69px 0px -320px;
+.po{
+   
+    margin: 0px 36px 0px -44px;
+    padding: 0px 2px 37px 79px;
+   
+    font-size: 1.2rem;
+    
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imo{
+    gap: 40px;
+    margin: 0px 0px 0px -11px;
+    padding: 0px 101px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.po2{
+    justify-content: space-evenly;
+    padding: 22px 14px;
+    flex-wrap: wrap;
+
+}
+.peu{
+    padding: 0px 67px 30px 105px;
 }
 
-
-*/
-
-
-
+.gridi-con{
+    justify-content: flex-start;
+    gap: 11px;
+    margin: 370px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /*pore img er width font size esob try kore dekhbo*/
+}
 
 
 
 }
 @media screen and (min-width:576px) and (max-width:960px){
+    header{
+        padding: 42px;
+       
+    }
+    .head,nav,nav>ul,.banner,.on-im,.feature-2{
+        flex-direction: column;
+    }
+    .extra{
+        margin-top: 8px;;
+    }
+    nav{
+        margin-left: -77px;
+    }
+    .d1 img {
+        padding: 2px;
+    }
+
+    .ba-im img{
+        width:100%;
     
+    }
+    .logo img {
+        
+        margin-left: 44px;
+    }
+    .on-im{
+        flex-direction: column;
+        padding-left: 67px;
+    }
+    .fo-pa{
+            font-size: 0.5rem;
+            width: 454px;
+}
+.fe-text{
+    margin: 174px 42px
+}
+.fe-te{
+    padding-left:0px;
+}
+.hourse{
+    padding: 0px 34px;
+    width: 83%;
+}
+.ten .doll{
+   
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    bottom: 143px;
+    right: 8px;
+    width: 140.5px;
+
+}
+.po{
+   
+    margin: 0px 36px 0px -44px;
+    padding: 0px 2px 37px 79px;
+   
+    font-size: 1.2rem;
+    
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imo{
+    gap: 40px;
+    margin: 0px 0px 0px -11px;
+    padding: 0px 101px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.po2{
+    justify-content: space-evenly;
+    padding: 22px 14px;
+    flex-wrap: wrap;
+
+}
+.peu{
+    padding: 0px 67px 30px 105px;
+}
+
+.gridi-con{
+    justify-content: flex-start;
+    gap: 11px;
+    margin: 370px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /*pore img er width font size esob try kore dekhbo*/
+}
+
+
+
 }
