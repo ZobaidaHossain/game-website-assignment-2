@@ -14,6 +14,7 @@ header{
     padding:30px 0px;
     
 }
+/*header*/
 .head{
     display:flex;
     justify-content: space-around;
@@ -68,6 +69,8 @@ padding: 11px 22px;
 .extra img{
     padding-left: 16px;
 }
+/*banner*/
+
 .banner{
     /*padding: 19px 240px;*/
     display:flex;
@@ -151,19 +154,202 @@ margin-left: 24px;
 
 }
 
+/*online feature*/
+
+.online{
+    
+    padding-left: 42px;
+}
+.on-im{
+    display: flex;
+    padding: 0px 131px;
+}
+.on-he{
+    text-align: center;
+    padding-left:10px;
+    color: #0B0223;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+margin-top:0px;
+margin-bottom: 0px;;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+.on-pa{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.four{
+    padding-right:52px;
+    
+}
+.four img{
+    border-radius: 16px;
+    width:230px;
+}
+.fo-pa{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 500;
+}
+
+/*play feature 2*/
+
+.fe-text{
+    text-align: right;
+    margin: 174px 0px;
+    text-align: right;
+}
+
+
+.play{
+    margin-top: 46px;
+    margin-bottom: -10px;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fe-he{
+    margin: -52px 0px;
+    text-align: right;
+font-family: Work Sans;
+font-size: 2.1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.fe-te{
+    padding-left: 353px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.0rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+
+.feature-2{
+    
+    display: flex;
+    margin-top: 74px;
+    gap: 215px
+ 
+}
+
+/*.ten{
+    border-radius: 8px;
+width: 342px;
+padding:40px;
+text-align: center;
+position:relative;
+bottom:100px;
+}*/
+
+.fe-image .hourse{
+    height:53%;
+    
+}
+.ten .doll{
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    bottom: 223px;
+    right: 91px;
+    width: 210.5px;
+
+}
+
+
+
 
 
 @media screen and (max-width:576px){
     header{
         padding: 42px;
-        text-align: center;
+       
     }
-    .head,nav,nav>ul{
+    .head,nav,nav>ul,.banner,.on-im,.feature-2{
         flex-direction: column;
     }
     .extra{
         margin-top: 8px;;
     }
+    nav{
+        margin-left: -77px;
+    }
+    .d1 img {
+        padding: 2px;
+    }
+
+    .ba-im img{
+        width:100%;
+    
+    }
+    .logo img {
+        
+        margin-left: 44px;
+    }
+    .on-im{
+        flex-direction: column;
+        padding-left: 67px;
+    }
+    .fo-pa{
+            font-size: 0.5rem;
+            width: 454px;
+}
+.fe-text{
+    margin: 174px 42px
+}
+.fe-te{
+    padding-left:0px;
+}
+.hourse{
+    padding: 0px 34px;
+    width: 83%;
+}
+.ten .doll{
+   
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    bottom: 143px;
+    right: 8px;
+    width: 140.5px;
+
+}
+/*
+.feature-2{
+    padding:0px;
+   margin: 0px 69px 0px -320px;
+}
+
+
+*/
+
+
+
+
+
 
 }
 @media screen and (min-width:576px) and (max-width:960px){
