@@ -408,7 +408,18 @@ line-height: normal;
     color: #fff;
     font-weight: bold;
   }
-  
+
+.gri:hover {
+    color: pink; /* Text color changes to pink on hover */
+    border: 2px solid pink; /* Pinkish border appears on hover */
+    border-radius: 70px;
+background: #FFF;
+  }
+
+
+
+
+
 /*
 .gridi-con{
     display: grid;
