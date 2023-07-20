@@ -67,9 +67,14 @@ font-weight: 500;
 padding: 11px 22px;
     margin-top: -18px;
 }
+.fa-brands{
+    font-size: 20px;
+    padding-left:16px;
+}
+/*
 .extra img{
     padding-left: 16px;
-}
+}*/
 /*banner*/
 
 .banner{
@@ -136,9 +141,11 @@ gap: 10px;
 border-radius: 48px;
 border:0px;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+cursor: pointer;
 
 }
 .btn2{
+    cursor: pointer;
     display: inline-flex;
     margin-top: 28px;
 padding: 16px 40px;
@@ -396,7 +403,11 @@ line-height: normal;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  
+
+  .fa-solid{
+    
+    font-size:30px;
+  }
   .play-button img {
     width: 50px; /* Adjust the size of the play button image */
     height: 50px; /* Adjust the size of the play button image */
@@ -405,7 +416,7 @@ line-height: normal;
   .watch-now {
     display: inline-block;
     margin-top: 10px;
-    color: #fff;
+    color:#FF42A5;
     font-weight: bold;
   }
 
@@ -417,7 +428,9 @@ background: #FFF;
   }
 
 
+  .fa-regular fa-circle-play{
 
+  }
 
 
 /*
@@ -554,6 +567,16 @@ line-height: normal;
     /*pore img er width font size esob try kore dekhbo*/
 }
 
+.on-he{
+    font-size: 21px;
+}
+.funny{
+    font-size: 21px;
+}
+.on-pa{
+    font-size: 13px;;
+}
+
 
 
 }
@@ -585,14 +608,15 @@ line-height: normal;
     }
     .on-im{
         flex-direction: column;
-        padding-left: 67px;
+        padding-left: 230px;
     }
     .fo-pa{
             font-size: 0.5rem;
             width: 454px;
 }
 .fe-text{
-    margin: 174px 42px
+    margin: 174px 42px;
+    padding: 0px 202px 0px 0px;
 }
 .fe-te{
     padding-left:0px;
@@ -647,6 +671,15 @@ line-height: normal;
     margin: 370px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     /*pore img er width font size esob try kore dekhbo*/
+}
+.on-he{
+    font-size: 21px;
+}
+.funny{
+    font-size: 21px;
+}
+.on-pa{
+    font-size: 13px;;
 }
 
 
